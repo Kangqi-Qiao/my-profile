@@ -1,0 +1,103 @@
+body {
+	background-color: white;
+	color: rgb(50,50,50);
+	font-family: Lora;
+	font-weight: normal;
+	font-size: 17px;
+}
+
+h1{
+	color: #413C69;
+	font-family: Merriweather;
+	font-size: 35px;
+	text-justify: center auto;
+	letter-spacing: 1px;
+	font-weight: 800;
+}
+
+h2,h3,h4,h5 {
+	color: #4A47A3;
+	font-size: 35px;
+	font-family: courier;
+	font-weight: bolder;
+}
+a {
+	text-decoration: none;
+	transition: : color 0.3s ease;
+	color: #150E56;
+	font-weight: bold;
+}
+a:hover {
+	color: #006daa;
+}
+
+
+#facebook {
+	width: 40px;
+}
+#instagram {
+	width: 40px;
+}
+.img-circle {
+	border-radius: 50%;
+}
+
+
+@media (max-width: 960px) {
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .container {
+    width: 300px;
+  }
+}
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+.card-white {
+   width: 600px;
+	margin: 40px auto;
+	background: white;
+	padding: 60px;
+	box-shadow: 0px 10px 30px rgba(0,0,0,0.3);
+	border-radius: 5px;
+	text-align: center;
+}
+.btn-blue {
+	background-color: #73b7de;
+	color: white;
+	padding: 12px 18px;
+	border-radius: 4px;
+	font-weight: bold;
+}
+.btn-blue: hover {
+	color: white;
+	padding-color: #006daa;
+}
+.list-inline {
+	list-style-type: none;
+	padding-left: 0px;
+}
+.list-inline li {
+	display: inline;
+	padding: 10px;
+}
+.list-inline i {
+	font-size: 50px;
+	color: #2b2d42;
+}
+.list-inline i:hover {
+	color: grey;
+	font-size: 60px;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
